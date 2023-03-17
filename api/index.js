@@ -13,10 +13,10 @@ app.use(express.static('public'))
 app.use(express.json())
 app.use(cors())
 
-app.use('/admin', adminRouter)
-app.use('/user', usersRouter)
-app.use('/hotel', hotelRouter)
-app.use('/transactions', transactionRouter)
+app.use('/api/admin', adminRouter)
+app.use('/api/user', usersRouter)
+app.use('/api/hotel', hotelRouter)
+app.use('/api/transactions', transactionRouter)
 
 
 // app.listen(5000, () => console.log('server is running on port 5000'))
