@@ -1,6 +1,6 @@
 const PASSWORD = 'Funix%40160922'
 const DATABASE_NAME = 'ASM2'
-const MONGO_CONNECT_URL = `mongodb+srv://tuvtc:${PASSWORD}@cluster0.fq04vsp.mongodb.net/${DATABASE_NAME}?retryWrites=true&w=majority`
+const MONGO_CONNECT_URL = `mongodb+srv://vuthicamtutu:${PASSWORD}@cluster0.khueetg.mongodb.net/${DATABASE_NAME}?retryWrites=true&w=majority`
 
 const mongoose = require('mongoose')
 
